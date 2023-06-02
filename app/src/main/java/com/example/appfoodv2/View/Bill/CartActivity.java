@@ -25,6 +25,7 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.api.LogDescriptor;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.example.appfoodv2.Adapter.GioHangAdapter;
 import com.example.appfoodv2.Model.SanPhamModels;
@@ -285,6 +286,7 @@ public class CartActivity extends AppCompatActivity implements GioHangView {
         eventValue.put("extraData", objExtraData.toString());
 
         eventValue.put("extra", "");
+        Log.d("PAYMENT_MOMO", eventValue.toString());
         AppMoMoLib.getInstance().requestMoMoCallBack(CartActivity.this, eventValue);
     }
 

@@ -176,6 +176,7 @@ public class HomeActivity extends AppCompatActivity implements FragMent_Home.Fra
                         break;
                     case R.id.thongtinungdung:
                         fm = new ThongtinungdungFragment();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, fm).commit();
                         break;
 
                 }

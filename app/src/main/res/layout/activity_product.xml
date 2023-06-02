@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:paddingVertical="10dp"
-        android:text="Thêm sản phẩm"
+        android:text="Quản lý sản phẩm"
         android:textColor="@color/teal_200"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
