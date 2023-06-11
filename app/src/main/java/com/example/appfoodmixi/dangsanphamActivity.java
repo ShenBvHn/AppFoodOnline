@@ -297,20 +297,16 @@ public class dangsanphamActivity extends AppCompatActivity {
 
         if (requestCode == LIBRARY_PICKER && resultCode == RESULT_OK && null != data) {
             try {
-
                 dialog.show();
-
-
                 Uri uri = data.getData();
                 InputStream inputStream = getContentResolver().openInputStream(uri);
                 Bitmap bitmap = BitmapFactory.decodeStream(inputStream);
-
                 ByteArrayOutputStream baos = new ByteArrayOutputStream();
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
                 byte[] datas = baos.toByteArray();
                 String filename = System.currentTimeMillis() + "";
                 StorageReference storageReference;
-                storageReference = FirebaseStorage.getInstance("gs://doan-dc57a.appspot.com/").getReference();
+                storageReference = FirebaseStorage.getInstance("gs://appfoodmixi2.appspot.com").getReference();
                 storageReference.child("Profile").child(filename + ".jpg").putBytes(datas).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(@NonNull UploadTask.TaskSnapshot taskSnapshot) {

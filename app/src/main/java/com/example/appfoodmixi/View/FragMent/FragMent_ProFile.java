@@ -170,7 +170,7 @@ public class FragMent_ProFile  extends Fragment implements  View.OnClickListener
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
                 byte[] datas = baos.toByteArray();
                 String filename = FirebaseAuth.getInstance().getCurrentUser().getUid();
-                storageReference= FirebaseStorage.getInstance("gs://doan-dc57a.appspot.com/").getReference();
+                storageReference= FirebaseStorage.getInstance("gs://appfoodmixi2.appspot.com").getReference();
                 storageReference.child("Profile").child(filename+".jpg").putBytes(datas).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                     @Override
                     public void onSuccess(@NonNull UploadTask.TaskSnapshot taskSnapshot) {

@@ -38,7 +38,7 @@ public class ContactActivity  extends AppCompatActivity implements OnMapReadyCal
 
 
 
-        db.collection("ThongTinCuaHang").document("kCbAkdqWyXAfUfwAxB2f")
+        db.collection("ThongTinCuaHang").document("kDQBdl0IqZeI2tDZWPSc")
                 .get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
             public void onSuccess(@NonNull DocumentSnapshot documentSnapshot) {
