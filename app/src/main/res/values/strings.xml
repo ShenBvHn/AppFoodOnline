@@ -10,4 +10,6 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="search">Tìm kiếm</string>
+    <string name="edt_nhap_ngay_thang">Nhập thời gian (dd/MM/yyyy)</string>
+    <string name="apply">Áp Dụng</string>
 </resources>
