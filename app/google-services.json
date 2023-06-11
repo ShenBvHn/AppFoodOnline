@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1048430108224",
-    "project_id": "appfoodmixi",
-    "storage_bucket": "appfoodmixi.appspot.com"
+    "project_number": "717256570563",
+    "project_id": "appfoodmixi2",
+    "storage_bucket": "appfoodmixi2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1048430108224:android:fb87906550e3fd9fd589a5",
+        "mobilesdk_app_id": "1:717256570563:android:d2143ae32a232f8aa9d476",
         "android_client_info": {
-          "package_name": "com.example.appfoodv2"
+          "package_name": "com.example.appfoodmixi"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1048430108224-cf5s1lf0nhbrcdihjeo94kjgut6t0661.apps.googleusercontent.com",
+          "client_id": "717256570563-fbf2ss4lprvblil1qbhd7nt8bh1qc1m1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBm4uByH2aQdr7OH_sfOcffL3-5cp4WH9M"
+          "current_key": "AIzaSyCFuNEk7slBNnCfY_v7SN8LbA6y0PHn3Pk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1048430108224-cf5s1lf0nhbrcdihjeo94kjgut6t0661.apps.googleusercontent.com",
+              "client_id": "717256570563-fbf2ss4lprvblil1qbhd7nt8bh1qc1m1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
