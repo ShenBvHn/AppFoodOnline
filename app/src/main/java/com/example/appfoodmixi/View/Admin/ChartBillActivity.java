@@ -123,13 +123,13 @@ public class ChartBillActivity extends AppCompatActivity {
                 labels.add("Hủy Hàng");
 
                 List<Integer> entryValues = new ArrayList<>();
-                if (dangxuly != 0)
+             //   if (dangxuly != 0)
                     entryValues.add(dangxuly);
-                if (danggiaohang != 0)
+           //     if (danggiaohang != 0)
                     entryValues.add(danggiaohang);
-                if (giaohangthanhcong != 0)
+             //   if (giaohangthanhcong != 0)
                     entryValues.add(giaohangthanhcong);
-                if (huyhang != 0)
+            //    if (huyhang != 0)
                     entryValues.add(huyhang);
 
                 create_graph(labels, entryValues);
